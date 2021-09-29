@@ -381,7 +381,7 @@ a:hover, a:active, a:focus {
 #about .about-thumb {
   background: #ffffff;
   border-radius: 4px;
-  padding: 100px;
+  padding: 80px;
   position: relative;
 }
 
@@ -653,7 +653,7 @@ footer {
   #about .col-md-3 img {
     position: relative;
     top: 0;
-    left: 0;
+    left: 50px;
   }
 
 }
@@ -683,6 +683,24 @@ footer {
 
 }
 
+/* //===========================// */
 
-
-
+/*========== For Mobile =============*/
+@media screen and (max-width: 540px) {
+  .section-title p{
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+  #gallery{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .go-top{
+    bottom: 1em;
+    right: 1em;
+  }
+  #about .about-img img {
+    height: 70%;
+    width: 70%;
+  }
+}
