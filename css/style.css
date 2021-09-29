@@ -143,6 +143,10 @@ a:hover, a:active, a:focus {
   position: relative;
 }
 
+#gallery{
+  padding-bottom: 50px;
+}
+
 #about{
   height: 100%;
   padding-top: 10%;
