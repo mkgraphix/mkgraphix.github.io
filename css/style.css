@@ -143,6 +143,22 @@ a:hover, a:active, a:focus {
   position: relative;
 }
 
+#contact {
+  height: 50vh;
+}
+
+#contact .container{
+  /* background-color: red; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#contact .section-title{
+  padding: 0px !important;
+}
+
 #gallery{
   padding-bottom: 50px;
 }
@@ -506,6 +522,19 @@ a:hover, a:active, a:focus {
   line-height: normal;
 }
 
+.project-type-headings{
+  color: #304352;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.project-type-headings:hover{
+  color: #e44c65;
+}
+.project-type-headings-active{
+  border-bottom: 3px #304352 solid;
+}
+
 
 
 /*---------------------------------------
@@ -585,7 +614,7 @@ footer {
   height: 65px;
   line-height: 65px;
   text-align: center;
-  margin: 0px 10px 42px 10px;
+  /* margin: 0px 10px 42px 10px; */
   padding: 0px;
 }
 
@@ -706,5 +735,16 @@ footer {
   #about .about-img img {
     height: 70%;
     width: 70%;
+  }
+  .project-title{
+    font-size: 18px;
+    line-height: normal;
+  }
+  #contact{
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  #contact .container{
+    position: relative;
   }
 }
