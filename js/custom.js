@@ -87,6 +87,32 @@ $(document).ready(function() {
   /* wow
   -------------------------------*/
   new WOW({ mobile: false }).init();
+  
+  /* projects types
+  -------------------------------*/
+  $('.all-type').click(function(){
+    $('.logos').css('display','block');
+    $('.uiux').css('display','block');
+    $('.all-type').addClass('project-type-headings-active');
+    $('.uiux-type').removeClass('project-type-headings-active');
+    $('.logo-type').removeClass('project-type-headings-active');
+  });
 
+  $('.uiux-type').click(function(){
+    $('.uiux').css('display','block');
+    $('.logos').css('display','none');
+    $('.uiux-type').addClass('project-type-headings-active');
+    $('.all-type').removeClass('project-type-headings-active');
+    $('.logo-type').removeClass('project-type-headings-active');
+  });
+  
+  $('.logo-type').click(function(){
+    $('.logos').css('display','block');
+    $('.uiux').css('display','none');
+    $('.logo-type').addClass('project-type-headings-active');
+    $('.all-type').removeClass('project-type-headings-active');
+    $('.uiux-type').removeClass('project-type-headings-active'); 
+  });
+  
   });
 
