@@ -90,13 +90,16 @@ $(document).ready(function() {
   
   /* projects types
   -------------------------------*/
-  $('.all-type').click(function(){
-    $('.logos').css('display','block');
-    $('.uiux').css('display','block');
-    $('.all-type').addClass('project-type-headings-active');
-    $('.uiux-type').removeClass('project-type-headings-active');
-    $('.logo-type').removeClass('project-type-headings-active');
-  });
+  // $('.all-type').click(function(){
+  //   $('.logos').css('display','block');
+  //   $('.uiux').css('display','block');
+  //   $('.all-type').addClass('project-type-headings-active');
+  //   $('.uiux-type').removeClass('project-type-headings-active');
+  //   $('.logo-type').removeClass('project-type-headings-active');
+  // });
+
+
+  $('.uiux').css('display','none');
 
   $('.uiux-type').click(function(){
     $('.uiux').css('display','block');
