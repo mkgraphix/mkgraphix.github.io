@@ -99,7 +99,7 @@ $(document).ready(function() {
   // });
 
 
-  $('.uiux').css('display','none');
+  $('.logos').css('display','none');
 
   $('.uiux-type').click(function(){
     $('.uiux').css('display','block');
